@@ -1,5 +1,5 @@
-public class Storage {
-    String key;
+public class LocalStorage {
+    private String key;
     String value;
 
     public void setItem(String key, String value){

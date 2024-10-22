@@ -47,7 +47,7 @@ public class Main {
         // productBasket.getInfoProductBasket();
         // }
 
-        Storage storage = new Storage();
+        LocalStorage storage = new LocalStorage();
 
         storage.setItem("Afrah", "1234");    
         storage.getItem("Afrah");  
